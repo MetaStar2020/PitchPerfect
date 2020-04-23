@@ -11,15 +11,19 @@ import AVFoundation
 
 class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
+    // MARK: - Properties: Variables and Constants
+    
     var audioRecorder: AVAudioRecorder!
+    
+    let notRecording = false
+    let isRecording = true
 
+    // MARK: - Outlets
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopRecordingButton: UIButton!
     
-    let notRecording = false
-    let isRecording = true
-    
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI(notRecording)
@@ -28,7 +32,17 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
-    
+   // MARK: - Navigation
+     
+     //Prepare for Segue
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         if segue.identifier == "stopRecording" {
+             let playSoundsVC = segue.destination as! PlaySoundsViewController
+             let recordedAudioURL = sender  as! URL
+             playSoundsVC.recordedAudioURL = recordedAudioURL
+         }
+     }
+    // MARK: - Functions
     func configureUI(_ recordingState: Bool) {
         if recordingState == true {
             recordButton.isEnabled = false
@@ -41,6 +55,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         }
     }
 
+    //MARK: - IBAction Functions
     @IBAction func recordAudio(_ sender: Any) {
         configureUI(isRecording)
         
@@ -73,14 +88,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
         } else {
         print("Recording was not succesful.")
-        }
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "stopRecording" {
-            let playSoundsVC = segue.destination as! PlaySoundsViewController
-            let recordedAudioURL = sender  as! URL
-            playSoundsVC.recordedAudioURL = recordedAudioURL
         }
     }
 }
