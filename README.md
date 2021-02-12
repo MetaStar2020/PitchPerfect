@@ -1,7 +1,7 @@
 # PitchPerfect
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)
+[![Swift Version][swift-image]][swift-url]
 ![GitHub repo size](https://img.shields.io/github/repo-size/MetaStar2020/PitchPerfect)
 ![GitHub contributors](https://img.shields.io/github/contributors/MetaStar2020/PitchPerfect)
 ![GitHub stars](https://img.shields.io/github/stars/MetaStar2020/PitchPerfect?style=social)
@@ -65,14 +65,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 ## Contributors
 
-Become the first contributor by contributing to this project! See 'Contributing to PitchPerfect' above for more information. 
-<!--- Thanks to the following people who have contributed to this project: ---!>
-
-<!--- * [@scottydocs](https://github.com/scottydocs) 📖 ---!>
-<!--- * [@cainwatson](https://github.com/cainwatson) 🐛 ---!>
-<!--- * [@calchuchesta](https://github.com/calchuchesta) 🐛 ---!>
-
-<!--- You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key). ---!>
+Become the first contributor by contributing to this project! See <strong>Contributing to PitchPerfect</strong> above for more information. 
 
 ## Contact
 
