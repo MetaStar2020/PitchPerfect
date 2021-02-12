@@ -1,10 +1,11 @@
 # PitchPerfect
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/PitchPerfect/README.md)
-![GitHub contributors](https://img.shields.io/github/contributors/PitchPerfect/README.md)
-![GitHub stars](https://img.shields.io/github/stars/PitchPerfect/README.md?style=social)
-![GitHub forks](https://img.shields.io/github/forks/PitchPerfect/README.md?style=social)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)]
+![GitHub repo size](https://img.shields.io/github/repo-size/MetaStar2020/PitchPerfect)
+![GitHub contributors](https://img.shields.io/github/contributors/MetaStar2020/PitchPerfect)
+![GitHub stars](https://img.shields.io/github/stars/MetaStar2020/PitchPerfect?style=social)
+![GitHub forks](https://img.shields.io/github/forks/MetaStar2020/PitchPerfect?style=social)
 
 Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
 
