@@ -1,6 +1,6 @@
 # PitchPerfect
 
-[![Swift Version][swift-image]][swift-url]
+![Swift Version](https://img.shields.io/badge/Swift-5.0-F16D39.svg?style=flat)
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MetaStar2020/PitchPerfect)
 ![GitHub contributors](https://img.shields.io/github/contributors/MetaStar2020/PitchPerfect)
@@ -9,23 +9,24 @@
 
 PitchPerfect is an utility that allows general users to record their voice and apply a filter.
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+<p align="row">
+<img src= "https://media.giphy.com/media/94FYHIH1p0KdFFM5rk/giphy.gif" width="200" >
+</p>
 
 ## Motivation
 
-## Screenshots
+The purpose of this mini-app is to demonstrate my abilities as an mobile app developer/engineer. This was my very first app. 
+
+Areas of focus: <strong> UIKit, AVFoundation, Storyboard </strong>
 
 ## Features
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
+- [x] Audio Recording
+- [x] Audio Filtering
 
 ## Requirements
 
-• iOS 8.0+
+• iOS 13.2+
 • XCode 11+
 
 ## Installing <project_name>
