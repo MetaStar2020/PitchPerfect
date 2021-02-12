@@ -1,13 +1,14 @@
 # PitchPerfect
 
 ![Swift Version](https://img.shields.io/badge/Swift-5.0-F16D39.svg?style=flat)
+![Build Status](https://travis-ci.org/dwyl/learn-travis.svg?branch=master)
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MetaStar2020/PitchPerfect)
 ![GitHub contributors](https://img.shields.io/github/contributors/MetaStar2020/PitchPerfect)
 ![GitHub stars](https://img.shields.io/github/stars/MetaStar2020/PitchPerfect?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/MetaStar2020/PitchPerfect?style=social)
 
-PitchPerfect is an utility that allows general users to record their voice and apply a filter.
+PitchPerfect is an utility app that allows general users to record their voice and apply a filter.
 
 <p align="row">
 <img src= "https://media.giphy.com/media/94FYHIH1p0KdFFM5rk/giphy.gif" width="200" >
@@ -19,6 +20,8 @@ The purpose of this mini-app is to demonstrate my abilities as an mobile app dev
 
 Areas of focus: <strong> UIKit, AVFoundation, Storyboard </strong>
 
+Architecture: <strong> Model-View-Controller (MVC) </strong>
+
 ## Features
 
 - [x] Audio Recording
@@ -27,33 +30,8 @@ Areas of focus: <strong> UIKit, AVFoundation, Storyboard </strong>
 ## Requirements
 
 • iOS 13.2+
+
 • XCode 11+
-
-## Installing <project_name>
-
-To install <project_name>, follow these steps:
-
-Linux and macOS:
-```
-<install_command>
-```
-
-Windows:
-```
-<install_command>
-```
-
-## API Reference
-
-## Using <project_name>
-
-To use <project_name>, follow these steps:
-
-```
-<usage_example>
-```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 ## Contributing to PitchPerfect
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
