@@ -1,7 +1,7 @@
 # PitchPerfect
 
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 [![Swift Version][swift-image]][swift-url]
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MetaStar2020/PitchPerfect)
 ![GitHub contributors](https://img.shields.io/github/contributors/MetaStar2020/PitchPerfect)
 ![GitHub stars](https://img.shields.io/github/stars/MetaStar2020/PitchPerfect?style=social)
@@ -13,17 +13,20 @@ Additional line of information text about what the project does. Your introducti
 
 ## Motivation
 
-## Build Status
-
 ## Screenshots
 
-## Prerequisites
+## Features
 
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of XCode (XCode 11+) .
-* You have a Mac machine or an equivalent system like the MacCloud and optionally an iPhone.
-<!--- * You have read `<guide/link/documentation_related_to_project>`. --->
+- [x] Feature 1
+- [x] Feature 2
+- [x] Feature 3
+- [x] Feature 4
+- [x] Feature 5
+
+## Requirements
+
+• iOS 8.0+
+• XCode 11+
 
 ## Installing <project_name>
 
